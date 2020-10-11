@@ -1,0 +1,111 @@
+
+/* Class = "UIButton"; normalTitle = "8"; ObjectID = "0NM-Su-uru"; */
+"0NM-Su-uru.normalTitle" = "8";
+
+/* Class = "UILabel"; text = "DEMO APP"; ObjectID = "1tv-5k-JIq"; */
+"1tv-5k-JIq.text" = "DEMO APP";
+
+/* Class = "UIButton"; normalTitle = "2"; ObjectID = "1yP-2a-D3Y"; */
+"1yP-2a-D3Y.normalTitle" = "2";
+
+/* Class = "UIButton"; normalTitle = "6"; ObjectID = "4Bf-fX-Zil"; */
+"4Bf-fX-Zil.normalTitle" = "6";
+
+/* Class = "UIButton"; normalTitle = "Decrypt"; ObjectID = "4jt-DT-IFo"; */
+"4jt-DT-IFo.normalTitle" = "Decrypt";
+
+/* Class = "UIButton"; normalTitle = "/"; ObjectID = "5Sz-WN-7ck"; */
+"5Sz-WN-7ck.normalTitle" = "/";
+
+/* Class = "UIButton"; normalTitle = "4"; ObjectID = "73v-e7-1j8"; */
+"73v-e7-1j8.normalTitle" = "4";
+
+/* Class = "UITextField"; placeholder = "Task Name"; ObjectID = "AwV-Hw-Ip5"; */
+"AwV-Hw-Ip5.placeholder" = "Task Name";
+
+/* Class = "UIButton"; normalTitle = "."; ObjectID = "Cq8-wV-Upp"; */
+"Cq8-wV-Upp.normalTitle" = ".";
+
+/* Class = "UIButton"; normalTitle = "c"; ObjectID = "FtT-ay-83m"; */
+"FtT-ay-83m.normalTitle" = "c";
+
+/* Class = "UIButton"; normalTitle = "Encrypt"; ObjectID = "He4-HQ-dBM"; */
+"He4-HQ-dBM.normalTitle" = "Encrypt";
+
+/* Class = "UIButton"; normalTitle = "*"; ObjectID = "L3d-ew-5fq"; */
+"L3d-ew-5fq.normalTitle" = "*";
+
+/* Class = "UILabel"; text = "Add Task"; ObjectID = "NNv-Wp-wFP"; */
+"NNv-Wp-wFP.text" = "Add Task";
+
+/* Class = "UITextField"; text = "Secret Key"; ObjectID = "OQw-di-Of9"; */
+"OQw-di-Of9.text" = "Secret Key";
+
+/* Class = "UITextField"; text = "Message"; ObjectID = "TXf-g5-C5l"; */
+"TXf-g5-C5l.text" = "Message";
+
+/* Class = "UIButton"; normalTitle = "-"; ObjectID = "X3G-Pz-br9"; */
+"X3G-Pz-br9.normalTitle" = "-";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "Y8P-Oz-bmd"; */
+"Y8P-Oz-bmd.text" = "0";
+
+/* Class = "UILabel"; text = "12:35:46"; ObjectID = "ZJU-13-mZa"; */
+"ZJU-13-mZa.text" = "12:35:46";
+
+/* Class = "UIButton"; normalTitle = "+"; ObjectID = "ZNN-6H-cFV"; */
+"ZNN-6H-cFV.normalTitle" = "+";
+
+/* Class = "UIButton"; normalTitle = "9"; ObjectID = "aZR-oW-Bgg"; */
+"aZR-oW-Bgg.normalTitle" = "9";
+
+/* Class = "UIButton"; normalTitle = "1"; ObjectID = "bkb-Nn-eHJ"; */
+"bkb-Nn-eHJ.normalTitle" = "1";
+
+/* Class = "UILabel"; text = "12/10/2020 4:00 PM"; ObjectID = "ces-zw-gry"; */
+"ces-zw-gry.text" = "12/10/2020 4:00 PM";
+
+/* Class = "UIButton"; normalTitle = "3"; ObjectID = "dh2-3S-ojt"; */
+"dh2-3S-ojt.normalTitle" = "3";
+
+/* Class = "UILabel"; text = "English"; ObjectID = "fhi-rc-Tpc"; */
+"fhi-rc-Tpc.text" = "English";
+
+/* Class = "UILabel"; text = "Payment Bill"; ObjectID = "ggv-2H-cSp"; */
+"ggv-2H-cSp.text" = "Payment Bill";
+
+/* Class = "UIButton"; normalTitle = "Sign In by Google"; ObjectID = "ha7-NH-zcc"; */
+"ha7-NH-zcc.normalTitle" = "Sign In by Google";
+
+/* Class = "UILabel"; text = "  Encrypted / Decrypted String"; ObjectID = "kHm-Iv-Tak"; */
+"kHm-Iv-Tak.text" = "  Encrypted / Decrypted String";
+
+/* Class = "UIButton"; normalTitle = "5"; ObjectID = "kwO-Gi-Fas"; */
+"kwO-Gi-Fas.normalTitle" = "5";
+
+/* Class = "UILabel"; text = "DEMO APP"; ObjectID = "o7h-EG-idf"; */
+"o7h-EG-idf.text" = "DEMO APP";
+
+/* Class = "UIButton"; normalTitle = "CLEAR"; ObjectID = "omt-y0-ZDB"; */
+"omt-y0-ZDB.normalTitle" = "CLEAR";
+
+/* Class = "UIButton"; normalTitle = "SAVE"; ObjectID = "qOW-nD-aYe"; */
+"qOW-nD-aYe.normalTitle" = "SAVE";
+
+/* Class = "UIButton"; normalTitle = "7"; ObjectID = "r6K-Qe-ivH"; */
+"r6K-Qe-ivH.normalTitle" = "7";
+
+/* Class = "UIButton"; normalTitle = "0"; ObjectID = "roh-tK-NNl"; */
+"roh-tK-NNl.normalTitle" = "0";
+
+/* Class = "UIButton"; normalTitle = "SAVE"; ObjectID = "u0u-FP-hRx"; */
+"u0u-FP-hRx.normalTitle" = "SAVE";
+
+/* Class = "UITextField"; placeholder = "Date And Time"; ObjectID = "xda-Nu-5sg"; */
+"xda-Nu-5sg.placeholder" = "Date And Time";
+
+/* Class = "UIButton"; normalTitle = "="; ObjectID = "y1r-iY-SYf"; */
+"y1r-iY-SYf.normalTitle" = "=";
+
+/* Class = "UILabel"; text = "Arabic"; ObjectID = "ygg-UU-8cw"; */
+"ygg-UU-8cw.text" = "Arabic";

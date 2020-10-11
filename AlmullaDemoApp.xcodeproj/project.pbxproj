@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,28 @@
 		2341C9FC252C5A9600E7CCA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2341C9FA252C5A9600E7CCA0 /* Main.storyboard */; };
 		2341C9FE252C5A9A00E7CCA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2341C9FD252C5A9A00E7CCA0 /* Assets.xcassets */; };
 		2341CA01252C5A9A00E7CCA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2341C9FF252C5A9A00E7CCA0 /* LaunchScreen.storyboard */; };
+		2341CA09252C5E6300E7CCA0 /* customClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2341CA08252C5E6300E7CCA0 /* customClass.swift */; };
+		2341CA0B252C75E000E7CCA0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2341CA0A252C75E000E7CCA0 /* GoogleService-Info.plist */; };
+		2341CA0D252C98E000E7CCA0 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2341CA0C252C98E000E7CCA0 /* CalculatorViewController.swift */; };
+		23423185252D8AA000192DC0 /* comntopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23423183252D8AA000192DC0 /* comntopView.swift */; };
+		23423186252D8AA000192DC0 /* comntopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23423184252D8AA000192DC0 /* comntopView.xib */; };
+		23423189252D94B000192DC0 /* comnbottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23423187252D94B000192DC0 /* comnbottomView.swift */; };
+		2342318A252D94B000192DC0 /* comnbottomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23423188252D94B000192DC0 /* comnbottomView.xib */; };
+		239266DE2530D73B0029D266 /* LocalizationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239266DD2530D73B0029D266 /* LocalizationProvider.swift */; };
+		239266E12530D7880029D266 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 239266E32530D7880029D266 /* Localizable.strings */; };
+		239266E82530D83A0029D266 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239266E72530D83A0029D266 /* Constant.swift */; };
+		23A863E6252CA3EF00702A5A /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A863E3252CA3EF00702A5A /* ContainerViewController.swift */; };
+		23A863EC252CAC0200702A5A /* MainCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A863EB252CAC0200702A5A /* MainCalculatorViewController.swift */; };
+		23A863F2252CAFBA00702A5A /* SlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A863F1252CAFBA00702A5A /* SlideMenuController.swift */; };
+		23A863F4252CB0D600702A5A /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A863F3252CB0D600702A5A /* LeftViewController.swift */; };
+		23A863F6252CB32C00702A5A /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A863F5252CB32C00702A5A /* BaseTableViewCell.swift */; };
+		23A863F8252CB38700702A5A /* commonFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A863F7252CB38700702A5A /* commonFile.swift */; };
+		23A863FA252CB59700702A5A /* ChngeLangViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A863F9252CB59700702A5A /* ChngeLangViewController.swift */; };
+		23B33F37252DD54E0045889C /* MainEncryprionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B33F36252DD54E0045889C /* MainEncryprionViewController.swift */; };
+		23B33F3B252DD5800045889C /* MainAddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B33F3A252DD5800045889C /* MainAddTaskViewController.swift */; };
+		23B33F3D252DD5920045889C /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B33F3C252DD5920045889C /* AddTaskViewController.swift */; };
+		23B33F3F252DD5AE0045889C /* MainStopwatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B33F3E252DD5AE0045889C /* MainStopwatchViewController.swift */; };
+		337F613D8969844E91613C62 /* Pods_AlmullaDemoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDDA4D9258144EC1BD477B7F /* Pods_AlmullaDemoApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +46,34 @@
 		2341C9FD252C5A9A00E7CCA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2341CA00252C5A9A00E7CCA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2341CA02252C5A9A00E7CCA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2341CA08252C5E6300E7CCA0 /* customClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customClass.swift; sourceTree = "<group>"; };
+		2341CA0A252C75E000E7CCA0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2341CA0C252C98E000E7CCA0 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
+		23423183252D8AA000192DC0 /* comntopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = comntopView.swift; sourceTree = "<group>"; };
+		23423184252D8AA000192DC0 /* comntopView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = comntopView.xib; sourceTree = "<group>"; };
+		23423187252D94B000192DC0 /* comnbottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = comnbottomView.swift; sourceTree = "<group>"; };
+		23423188252D94B000192DC0 /* comnbottomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = comnbottomView.xib; sourceTree = "<group>"; };
+		239266DD2530D73B0029D266 /* LocalizationProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizationProvider.swift; sourceTree = "<group>"; };
+		239266E22530D7880029D266 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		239266E42530D7DF0029D266 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		239266E52530D7DF0029D266 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		239266E62530D7DF0029D266 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		239266E72530D83A0029D266 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		23A863E3252CA3EF00702A5A /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		23A863EB252CAC0200702A5A /* MainCalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCalculatorViewController.swift; sourceTree = "<group>"; };
+		23A863F0252CAFBA00702A5A /* SlideMenuControllerSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideMenuControllerSwift.h; sourceTree = "<group>"; };
+		23A863F1252CAFBA00702A5A /* SlideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenuController.swift; sourceTree = "<group>"; };
+		23A863F3252CB0D600702A5A /* LeftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		23A863F5252CB32C00702A5A /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		23A863F7252CB38700702A5A /* commonFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = commonFile.swift; sourceTree = "<group>"; };
+		23A863F9252CB59700702A5A /* ChngeLangViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChngeLangViewController.swift; sourceTree = "<group>"; };
+		23B33F36252DD54E0045889C /* MainEncryprionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainEncryprionViewController.swift; sourceTree = "<group>"; };
+		23B33F3A252DD5800045889C /* MainAddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAddTaskViewController.swift; sourceTree = "<group>"; };
+		23B33F3C252DD5920045889C /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
+		23B33F3E252DD5AE0045889C /* MainStopwatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainStopwatchViewController.swift; sourceTree = "<group>"; };
+		884011F594B23D7CF37D24EF /* Pods-AlmullaDemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlmullaDemoApp.release.xcconfig"; path = "Target Support Files/Pods-AlmullaDemoApp/Pods-AlmullaDemoApp.release.xcconfig"; sourceTree = "<group>"; };
+		904B1E6B1F0FC7102AF105F3 /* Pods-AlmullaDemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlmullaDemoApp.debug.xcconfig"; path = "Target Support Files/Pods-AlmullaDemoApp/Pods-AlmullaDemoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		BDDA4D9258144EC1BD477B7F /* Pods_AlmullaDemoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlmullaDemoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +81,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				337F613D8969844E91613C62 /* Pods_AlmullaDemoApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F7582A3233ACB6BCAB35619 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDDA4D9258144EC1BD477B7F /* Pods_AlmullaDemoApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2341C9E8252C5A9600E7CCA0 = {
 			isa = PBXGroup;
 			children = (
 				2341C9F3252C5A9600E7CCA0 /* AlmullaDemoApp */,
 				2341C9F2252C5A9600E7CCA0 /* Products */,
+				B41A2DB7E8ECCF3776FB7B49 /* Pods */,
+				1F7582A3233ACB6BCAB35619 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +119,132 @@
 			children = (
 				2341C9F4252C5A9600E7CCA0 /* AppDelegate.swift */,
 				2341C9F6252C5A9600E7CCA0 /* SceneDelegate.swift */,
-				2341C9F8252C5A9600E7CCA0 /* ViewController.swift */,
+				23A863E9252CA42E00702A5A /* customFile */,
+				23A863EA252CA44200702A5A /* ViewController */,
+				23A863E8252CA41000702A5A /* customClassView */,
+				23A863EF252CAFA500702A5A /* SlideMenu */,
+				239266DC2530D7200029D266 /* Localization */,
 				2341C9FA252C5A9600E7CCA0 /* Main.storyboard */,
 				2341C9FD252C5A9A00E7CCA0 /* Assets.xcassets */,
 				2341C9FF252C5A9A00E7CCA0 /* LaunchScreen.storyboard */,
 				2341CA02252C5A9A00E7CCA0 /* Info.plist */,
+				2341CA0A252C75E000E7CCA0 /* GoogleService-Info.plist */,
 			);
 			path = AlmullaDemoApp;
+			sourceTree = "<group>";
+		};
+		239266DC2530D7200029D266 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				239266DD2530D73B0029D266 /* LocalizationProvider.swift */,
+				239266E32530D7880029D266 /* Localizable.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		23A863E8252CA41000702A5A /* customClassView */ = {
+			isa = PBXGroup;
+			children = (
+				23A863E3252CA3EF00702A5A /* ContainerViewController.swift */,
+				23423183252D8AA000192DC0 /* comntopView.swift */,
+				23423184252D8AA000192DC0 /* comntopView.xib */,
+				23423187252D94B000192DC0 /* comnbottomView.swift */,
+				23423188252D94B000192DC0 /* comnbottomView.xib */,
+			);
+			path = customClassView;
+			sourceTree = "<group>";
+		};
+		23A863E9252CA42E00702A5A /* customFile */ = {
+			isa = PBXGroup;
+			children = (
+				2341CA08252C5E6300E7CCA0 /* customClass.swift */,
+				23A863F5252CB32C00702A5A /* BaseTableViewCell.swift */,
+				23A863F7252CB38700702A5A /* commonFile.swift */,
+				239266E72530D83A0029D266 /* Constant.swift */,
+			);
+			path = customFile;
+			sourceTree = "<group>";
+		};
+		23A863EA252CA44200702A5A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				23B33F31252DCC450045889C /* Login */,
+				23B33F30252DCC1F0045889C /* Calculator */,
+				23B33F33252DD4F20045889C /* Encryption */,
+				23B33F34252DD5100045889C /* AddTask */,
+				23B33F35252DD5270045889C /* Stopwatch */,
+				23B33F32252DCC500045889C /* SideMenu */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		23A863EF252CAFA500702A5A /* SlideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				23A863F1252CAFBA00702A5A /* SlideMenuController.swift */,
+				23A863F0252CAFBA00702A5A /* SlideMenuControllerSwift.h */,
+			);
+			path = SlideMenu;
+			sourceTree = "<group>";
+		};
+		23B33F30252DCC1F0045889C /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				23A863EB252CAC0200702A5A /* MainCalculatorViewController.swift */,
+				2341CA0C252C98E000E7CCA0 /* CalculatorViewController.swift */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		23B33F31252DCC450045889C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				2341C9F8252C5A9600E7CCA0 /* ViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		23B33F32252DCC500045889C /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				23A863F3252CB0D600702A5A /* LeftViewController.swift */,
+				23A863F9252CB59700702A5A /* ChngeLangViewController.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		23B33F33252DD4F20045889C /* Encryption */ = {
+			isa = PBXGroup;
+			children = (
+				23B33F36252DD54E0045889C /* MainEncryprionViewController.swift */,
+			);
+			path = Encryption;
+			sourceTree = "<group>";
+		};
+		23B33F34252DD5100045889C /* AddTask */ = {
+			isa = PBXGroup;
+			children = (
+				23B33F3A252DD5800045889C /* MainAddTaskViewController.swift */,
+				23B33F3C252DD5920045889C /* AddTaskViewController.swift */,
+			);
+			path = AddTask;
+			sourceTree = "<group>";
+		};
+		23B33F35252DD5270045889C /* Stopwatch */ = {
+			isa = PBXGroup;
+			children = (
+				23B33F3E252DD5AE0045889C /* MainStopwatchViewController.swift */,
+			);
+			path = Stopwatch;
+			sourceTree = "<group>";
+		};
+		B41A2DB7E8ECCF3776FB7B49 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				904B1E6B1F0FC7102AF105F3 /* Pods-AlmullaDemoApp.debug.xcconfig */,
+				884011F594B23D7CF37D24EF /* Pods-AlmullaDemoApp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +254,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2341CA05252C5A9A00E7CCA0 /* Build configuration list for PBXNativeTarget "AlmullaDemoApp" */;
 			buildPhases = (
+				63EBD46B809AFC43B6E111A9 /* [CP] Check Pods Manifest.lock */,
 				2341C9ED252C5A9600E7CCA0 /* Sources */,
 				2341C9EE252C5A9600E7CCA0 /* Frameworks */,
 				2341C9EF252C5A9600E7CCA0 /* Resources */,
+				E04B7B09890B1F8BE12EF9E2 /* [CP] Embed Pods Frameworks */,
+				4106CC48B2F4BF89ADC817E3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -109,6 +292,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 2341C9E8252C5A9600E7CCA0;
 			productRefGroup = 2341C9F2252C5A9600E7CCA0 /* Products */;
@@ -125,7 +309,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2342318A252D94B000192DC0 /* comnbottomView.xib in Resources */,
+				239266E12530D7880029D266 /* Localizable.strings in Resources */,
+				23423186252D8AA000192DC0 /* comntopView.xib in Resources */,
 				2341CA01252C5A9A00E7CCA0 /* LaunchScreen.storyboard in Resources */,
+				2341CA0B252C75E000E7CCA0 /* GoogleService-Info.plist in Resources */,
 				2341C9FE252C5A9A00E7CCA0 /* Assets.xcassets in Resources */,
 				2341C9FC252C5A9600E7CCA0 /* Main.storyboard in Resources */,
 			);
@@ -133,13 +321,89 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4106CC48B2F4BF89ADC817E3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlmullaDemoApp/Pods-AlmullaDemoApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlmullaDemoApp/Pods-AlmullaDemoApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlmullaDemoApp/Pods-AlmullaDemoApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63EBD46B809AFC43B6E111A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlmullaDemoApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E04B7B09890B1F8BE12EF9E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlmullaDemoApp/Pods-AlmullaDemoApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlmullaDemoApp/Pods-AlmullaDemoApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlmullaDemoApp/Pods-AlmullaDemoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2341C9ED252C5A9600E7CCA0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2341CA0D252C98E000E7CCA0 /* CalculatorViewController.swift in Sources */,
+				23A863E6252CA3EF00702A5A /* ContainerViewController.swift in Sources */,
+				23A863F6252CB32C00702A5A /* BaseTableViewCell.swift in Sources */,
 				2341C9F9252C5A9600E7CCA0 /* ViewController.swift in Sources */,
+				23B33F3B252DD5800045889C /* MainAddTaskViewController.swift in Sources */,
+				23A863FA252CB59700702A5A /* ChngeLangViewController.swift in Sources */,
+				23B33F3D252DD5920045889C /* AddTaskViewController.swift in Sources */,
+				239266E82530D83A0029D266 /* Constant.swift in Sources */,
+				239266DE2530D73B0029D266 /* LocalizationProvider.swift in Sources */,
+				23A863F4252CB0D600702A5A /* LeftViewController.swift in Sources */,
+				23A863EC252CAC0200702A5A /* MainCalculatorViewController.swift in Sources */,
+				23A863F2252CAFBA00702A5A /* SlideMenuController.swift in Sources */,
+				23423185252D8AA000192DC0 /* comntopView.swift in Sources */,
+				2341CA09252C5E6300E7CCA0 /* customClass.swift in Sources */,
+				23A863F8252CB38700702A5A /* commonFile.swift in Sources */,
 				2341C9F5252C5A9600E7CCA0 /* AppDelegate.swift in Sources */,
+				23B33F37252DD54E0045889C /* MainEncryprionViewController.swift in Sources */,
+				23423189252D94B000192DC0 /* comnbottomView.swift in Sources */,
+				23B33F3F252DD5AE0045889C /* MainStopwatchViewController.swift in Sources */,
 				2341C9F7252C5A9600E7CCA0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,6 +415,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				2341C9FB252C5A9600E7CCA0 /* Base */,
+				239266E42530D7DF0029D266 /* ar */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -159,8 +424,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				2341CA00252C5A9A00E7CCA0 /* Base */,
+				239266E52530D7DF0029D266 /* ar */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		239266E32530D7880029D266 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				239266E22530D7880029D266 /* en */,
+				239266E62530D7DF0029D266 /* ar */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -170,6 +445,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -230,6 +506,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -282,6 +559,7 @@
 		};
 		2341CA06252C5A9A00E7CCA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 904B1E6B1F0FC7102AF105F3 /* Pods-AlmullaDemoApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,7 +569,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ashwini.AlmullaDemoApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashwini.AlmullaDemoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,6 +578,7 @@
 		};
 		2341CA07252C5A9A00E7CCA0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 884011F594B23D7CF37D24EF /* Pods-AlmullaDemoApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -309,7 +588,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ashwini.AlmullaDemoApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashwini.AlmullaDemoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

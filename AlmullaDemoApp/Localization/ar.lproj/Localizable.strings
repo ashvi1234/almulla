@@ -1,0 +1,47 @@
+/* 
+  File.strings
+  AlmullaDemoApp
+
+  Created by Ashwini Apurkar on 09/10/20.
+  Copyright © 2020 Ashwini Apurkar. All rights reserved.
+*/
+
+"Welcome" = "أهلا بك";
+
+"Calculator" = "أهلا بك";
+
+"Encryption" = "التشفير";
+
+"To-Do" = "لكى يفعل";
+
+"Stopwatch" = "ساعة التوقيف";
+
+"Message" = "رسالة";
+
+"Secret Key" = "المفتاح السري";
+
+"Encrypt" = "تشفير";
+
+"Decrypt" = "فك تشفير";
+
+"Delete" = "حذف";
+
+"Are you sure you want to delete this task?" = "هل أنت متأكد أنك تريد حذف هذه المهمة؟";
+
+"Task Name" =  "اسم المهمة";
+
+"Date and time" = "التاريخ و الوقت";
+
+"Save" = "أضف";
+
+"Clear" = "واضح";
+
+"OK" = "حسنا";
+
+"Cancel" = " إلغاء";
+
+"Change Language" = "إلغاء";
+
+"Logout" = "تسجيل خروج";
+
+"Are you sure you want to logout?" =  "هل أنت متأكد أنك تريد تسجيل الخروج؟";

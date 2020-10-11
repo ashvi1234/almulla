@@ -1,0 +1,6 @@
+framework module Pods_AlmullaDemoApp {
+  umbrella header "Pods-AlmullaDemoApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

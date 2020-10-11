@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="comntopView" customModule="AlmullaDemoApp" customModuleProvider="target">
+            <connections>
+                <outlet property="containerView" destination="i5M-Pr-FkT" id="YHY-hn-U9N"/>
+                <outlet property="menuBtn" destination="ZGe-Gh-oQE" id="bjw-0R-AyE"/>
+                <outlet property="welcomeLbl" destination="LQX-Zg-y3h" id="vGb-fU-Qbk"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="438" height="80"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome John Doe" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LQX-Zg-y3h">
+                    <rect key="frame" x="136.66666666666666" y="22.666666666666671" width="164.99999999999997" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="8vJ-5M-BTU"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                    <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZGe-Gh-oQE">
+                    <rect key="frame" x="20" y="27.666666666666671" width="25" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="51L-jB-zhd"/>
+                        <constraint firstAttribute="width" constant="25" id="xTP-WM-lsJ"/>
+                    </constraints>
+                    <color key="tintColor" red="1" green="0.52156862749999999" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" image="menu-2"/>
+                    <connections>
+                        <action selector="sideMenuBtnCliked:" destination="-1" eventType="touchUpInside" id="VsQ-cR-hYW"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="LQX-Zg-y3h" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Wfc-0D-VeG"/>
+                <constraint firstItem="ZGe-Gh-oQE" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="eve-nz-Bde"/>
+                <constraint firstItem="LQX-Zg-y3h" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="lL4-gU-To1"/>
+                <constraint firstItem="ZGe-Gh-oQE" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="mt5-g1-DCY"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="74" y="-150"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="menu-2" width="32" height="32"/>
+    </resources>
+</document>
